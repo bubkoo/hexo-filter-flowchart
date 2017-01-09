@@ -1,7 +1,7 @@
 {
   "name": "hexo-filter-flowchart",
   "version": "1.0.0",
-  "description": "Generates flowchart diagrams for Hexo.",
+  "description": "Generate flowchart diagrams for Hexo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

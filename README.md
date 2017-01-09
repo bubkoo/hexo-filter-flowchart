@@ -1,3 +1,3 @@
 # hexo-filter-flowchart
 
-> Generates flowchart diagrams for Hexo.
+> Generate flowchart diagrams for Hexo.
