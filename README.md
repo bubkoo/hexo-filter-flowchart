@@ -1,2 +1,3 @@
 # hexo-filter-flowchart
-Flowchart plugin using flowchart.js for Hexo.
+
+> Generates flowchart diagrams for Hexo.
