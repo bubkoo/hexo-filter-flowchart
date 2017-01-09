@@ -1,0 +1,31 @@
+{
+  "name": "hexo-filter-flowchart",
+  "version": "1.0.0",
+  "description": "Flowchart plugin using flowchart.js for Hexo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/hexo-filter-flowchart.git"
+  },
+  "keywords": [
+    "hexo",
+    "filter",
+    "flowchart",
+    "markdown"
+  ],
+  "author": {
+    "name": "bubkoo.wy",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubkoo/hexo-filter-flowchart/issues"
+  },
+  "homepage": "https://github.com/bubkoo/hexo-filter-flowchart#readme",
+  "dependencies": {
+    "deep-assign": "^2.0.0"
+  }
+}
