@@ -15,7 +15,7 @@ npm install --save hexo-filter-flowchart
 
 ## Usage
 
-This plugin is based on [flowchart.js](https://github.com/adrai/flowchart.js), and adopts the syntax: 
+This plugin is based on [flowchart.js](https://github.com/adrai/flowchart.js), so you can defined the chart as follow: 
 
     ```flow
     st=>start: Start|past:>http://www.google.com[blank]
