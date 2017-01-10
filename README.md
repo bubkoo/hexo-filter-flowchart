@@ -15,6 +15,8 @@ npm install --save hexo-filter-flowchart
 
 ## Usage
 
+This plugin is based on [flowchart.js](https://github.com/adrai/flowchart.js), and adopts the syntax: 
+
     ```flow
     st=>start: Start|past:>http://www.google.com[blank]
     e=>end: End:>http://www.google.com
@@ -33,7 +35,33 @@ npm install --save hexo-filter-flowchart
     c2(no)->op2->e
     ```
 
-## Options
+## Config
+
+In your site's `_config.yml`:
+
+```yaml
+flowchart:
+  raphael: ''   
+  flowchart: ''
+  options: # options used for `drawSVG`
+```
+
+Your config will be merged into default config:
+
+```json
+{
+  raphael: 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js',
+  flowchart: 'https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js',
+  options: {
+    'scale': 1,
+    'line-width': 1,
+    'line-length': 20,
+    'text-margin': 20,
+    'font-size': 12
+  }
+}
+```
+
 
 ## Related
 
