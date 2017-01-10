@@ -6,9 +6,9 @@ hexo.config.flowchart = assign({
   raphael: 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js',
   options: {
     'scale': 1,
-    'line-width': 1,
-    'line-length': 20,
-    'text-margin': 20,
+    'line-width': 2,
+    'line-length': 50,
+    'text-margin': 10,
     'font-size': 12
   }
 }, hexo.config.flowchart);

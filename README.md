@@ -54,9 +54,9 @@ Your config will be merged into default config:
   "flowchart": "https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js",
   "options": {
     "scale": 1,
-    "line-width": 1,
-    "line-length": 20,
-    "text-margin": 20,
+    "line-width": 2,
+    "line-length": 50,
+    "text-margin": 10,
     "font-size": 12
   }
 }
