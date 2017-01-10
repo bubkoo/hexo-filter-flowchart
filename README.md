@@ -50,14 +50,14 @@ Your config will be merged into default config:
 
 ```json
 {
-  raphael: 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js',
-  flowchart: 'https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js',
-  options: {
-    'scale': 1,
-    'line-width': 1,
-    'line-length': 20,
-    'text-margin': 20,
-    'font-size': 12
+  "raphael": "https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js",
+  "flowchart": "https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js",
+  "options": {
+    "scale": 1,
+    "line-width": 1,
+    "line-length": 20,
+    "text-margin": 20,
+    "font-size": 12
   }
 }
 ```
