@@ -62,6 +62,7 @@ Your config will be merged into default config:
 }
 ```
 
+![snapshot.svg](https://cdn.rawgit.com/bubkoo/hexo-filter-flowchart/master/snapshot.svg)
 
 ## Related
 
