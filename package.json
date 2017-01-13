@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-flowchart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate flowchart diagrams for Hexo.",
   "main": "index.js",
   "scripts": {
