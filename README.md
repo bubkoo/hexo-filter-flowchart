@@ -35,6 +35,8 @@ This plugin is based on [flowchart.js](https://github.com/adrai/flowchart.js), s
     c2(no)->op2->e
     ```
 
+![snapshot.svg](https://cdn.rawgit.com/bubkoo/hexo-filter-flowchart/master/snapshot.svg)
+
 ## Config
 
 In your site's `_config.yml`:
@@ -61,8 +63,6 @@ Your config will be merged into default config:
   }
 }
 ```
-
-![snapshot.svg](https://cdn.rawgit.com/bubkoo/hexo-filter-flowchart/master/snapshot.svg)
 
 ## Related
 
