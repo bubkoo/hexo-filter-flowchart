@@ -15,7 +15,7 @@ npm install --save hexo-filter-flowchart
 
 ## Usage
 
-This plugin is based on [flowchart.js](https://github.com/adrai/flowchart.js), so you can defined the chart as follow: 
+This plugin is based on [flowchart.js](https://github.com/adrai/flowchart.js), so you can defined the chart as follow:
 
     ```flow
     st=>start: Start|past:>http://www.google.com[blank]
@@ -27,7 +27,7 @@ This plugin is based on [flowchart.js](https://github.com/adrai/flowchart.js), s
     or No?|approved:>http://www.google.com
     c2=>condition: Good idea|rejected
     io=>inputoutput: catch something...|request
-    
+
     st->op1(right)->cond
     cond(yes, right)->c2
     cond(no)->sub1(left)->op1
@@ -43,8 +43,8 @@ In your site's `_config.yml`:
 
 ```yaml
 flowchart:
-  raphael: ''   
-  flowchart: ''
+  raphael:
+  flowchart:
   options: # options used for `drawSVG`
 ```
 
@@ -71,7 +71,7 @@ Your config will be merged into default config:
 - [hexo-filter-sequence](https://github.com/bubkoo/hexo-filter-sequence) Generate UML sequence diagrams for Hexo.
 - [hexo-filter-sub](https://github.com/bubkoo/hexo-filter-sub) Generate subscript (`<sub>`) tag for Hexo.
 - [hexo-filter-sup](https://github.com/bubkoo/hexo-filter-sup) Generate superscript (`<sup>`) tag for Hexo.
-- [hexo-theme-formula](https://github.com/bubkoo/hexo-theme-formula) Hexo theme base on jade and less. 
+- [hexo-theme-formula](https://github.com/bubkoo/hexo-theme-formula) Hexo theme base on jade and less.
 
 ## Contributing
 
