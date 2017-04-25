@@ -43,8 +43,8 @@ In your site's `_config.yml`:
 
 ```yaml
 flowchart:
-  raphael: ''   
-  flowchart: ''
+  # raphael:   # optional, the source url of raphael.js
+  # flowchart: # optional, the source url of flowchart.js
   options: # options used for `drawSVG`
 ```
 
