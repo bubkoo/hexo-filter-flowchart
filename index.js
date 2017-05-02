@@ -13,4 +13,4 @@ hexo.config.flowchart = assign({
   }
 }, hexo.config.flowchart);
 
-hexo.extend.filter.register('before_post_render', renderer.before, 9);
+hexo.extend.filter.register('before_post_render', renderer.render, 9);
